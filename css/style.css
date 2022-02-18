@@ -19,17 +19,32 @@ body {
     clear: both;
 }
 
-.container {
-    background-color: rgb(80, 93, 117);
-    height: 1400px;
-}
-
 .content {
     background-color: aliceblue;
     height: 400px;
-   
 }
 
 .site_main {
     margin: 1rem 0;
 }
+
+.sidebar {
+    background-color: aquamarine;
+    height: 600px;
+    width: 15%;
+    float: left;
+}
+
+.content2 {
+    width:66%;
+    height: 600px;
+    background-color: rgb(0, 174, 255);
+    float: left;
+    margin: 0 2%;
+}
+
+.container2 {
+    margin-top: 1.5rem;
+}
+
+
