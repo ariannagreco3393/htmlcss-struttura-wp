@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    margin: 0 10%;
+}
+
+.site_header, .site_footer {
+    height: 100px;
+    background-color: pink;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    background-color: rgb(80, 93, 117);
+    height: 1400px;
+}
+
+.content {
+    background-color: aliceblue;
+    height: 400px;
+   
+}
+
+.site_main {
+    margin: 1rem 0;
+}
