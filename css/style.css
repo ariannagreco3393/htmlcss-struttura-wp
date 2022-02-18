@@ -24,8 +24,7 @@ body {
 
 .content {
     background-color: aliceblue;
-    height: 400px;
-    
+    height: 400px;  
 }
 
 .site_main {
@@ -47,7 +46,7 @@ body {
     margin: 0 2%;
 }
 
-.container2 {
+.row {
     margin-top: 1.5rem;
 }
 
